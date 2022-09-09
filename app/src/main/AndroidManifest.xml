@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.pigllet.htruthdare">
+
+    <uses-permission android:name="com.android.vending.BILLING" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/icon"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/icon"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.HTruthDare"
+        tools:targetApi="31">
+        <activity
+            android:name=".SplashActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".truthdare.DareActivity"
+            android:label="@string/dare" />
+        <activity
+            android:name=".truthdare.StartActivity"
+            android:label="@string/truth" />
+        <activity
+            android:name=".truthdare.MainActivity"
+            android:screenOrientation="fullSensor" />
+        <activity
+            android:name=".truthdare.TruthActivity"
+            android:screenOrientation="fullSensor" />
+        <activity
+            android:name=".billings.activities.BuyCoinActivity"
+            android:exported="true" />
+        <activity
+            android:name=".billings.activities.Subscriptions"
+            android:exported="true" />
+        <activity
+            android:name=".billings.activities.IAPActivity"
+            android:exported="true" />
+
+    </application>
+
+</manifest>

@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">HTruthDare</string>
+    <string name="spin">SPIN BOTTLE</string>
+    <string name="truth">Truth</string>
+    <string name="dare">Dare</string>
+    <string name="action_add">Add</string>
+    <string name="action_refresh">Refresh</string>
+    <string name="get_pos">Get your position and</string>
+    <string name="add_truth">Add Truth</string>
+    <string name="add_dare">Add Dare</string>
+
+    <string name="product_id">premium</string>
+    <string name="subscribe">Subscribe</string>
+    <string name="restore">Restore</string>
+    <string name="restore_purchases">Restore Purchases</string>
+    <string name="title_activity_buy_coins">BuyCoinsActivity</string>
+</resources>

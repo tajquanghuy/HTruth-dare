@@ -1,4 +1,4 @@
-package com.pigllet.htruthdare.billings.interfaces;
+package com.darling.htruthdare.billings.interfaces;
 
 public interface RecycleViewInterface {
     void onItemClick(int pos);

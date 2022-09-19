@@ -1,4 +1,4 @@
-package com.pigllet.htruthdare
+package com.darling.htruthdare
 
 import org.junit.Test
 

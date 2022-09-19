@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com.pigllet.htruthdare">
+    package="com.darling.htruthdare">
 
     <uses-permission android:name="com.android.vending.BILLING" />
 
@@ -16,7 +16,7 @@
         android:theme="@style/Theme.HTruthDare"
         tools:targetApi="31">
         <activity
-            android:name=".SplashActivity"
+            android:name="com.darling.htruthdare.SplashActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -26,25 +26,25 @@
         </activity>
 
         <activity
-            android:name=".truthdare.DareActivity"
+            android:name="com.darling.htruthdare.truthdare.DareActivity"
             android:label="@string/dare" />
         <activity
-            android:name=".truthdare.StartActivity"
+            android:name="com.darling.htruthdare.truthdare.StartActivity"
             android:label="@string/truth" />
         <activity
-            android:name=".truthdare.MainActivity"
+            android:name="com.darling.htruthdare.truthdare.MainActivity"
             android:screenOrientation="fullSensor" />
         <activity
-            android:name=".truthdare.TruthActivity"
+            android:name="com.darling.htruthdare.truthdare.TruthActivity"
             android:screenOrientation="fullSensor" />
         <activity
-            android:name=".billings.activities.BuyCoinActivity"
+            android:name="com.darling.htruthdare.billings.activities.BuyCoinActivity"
             android:exported="true" />
         <activity
-            android:name=".billings.activities.Subscriptions"
+            android:name="com.darling.htruthdare.billings.activities.Subscriptions"
             android:exported="true" />
         <activity
-            android:name=".billings.activities.IAPActivity"
+            android:name="com.darling.htruthdare.billings.activities.IAPActivity"
             android:exported="true" />
 
     </application>

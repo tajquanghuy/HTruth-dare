@@ -1,4 +1,4 @@
-package com.pigllet.htruthdare.truthdare;
+package com.darling.htruthdare.truthdare;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -8,8 +8,8 @@ import android.widget.TextView;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import com.pigllet.htruthdare.R;
-import com.pigllet.htruthdare.billings.activities.IAPActivity;
+import com.darling.htruthdare.R;
+import com.darling.htruthdare.billings.activities.IAPActivity;
 
 public class StartActivity extends AppCompatActivity {
 

@@ -1,4 +1,4 @@
-package com.pigllet.htruthdare.billings.activities;
+package com.darling.htruthdare.billings.activities;
 
 import android.annotation.SuppressLint;
 import android.app.Activity;
@@ -23,10 +23,10 @@ import com.android.billingclient.api.Purchase;
 import com.android.billingclient.api.QueryProductDetailsParams;
 import com.android.billingclient.api.QueryPurchasesParams;
 import com.google.common.collect.ImmutableList;
-import com.pigllet.htruthdare.R;
-import com.pigllet.htruthdare.billings.adapters.BuyCoinsAdapter;
-import com.pigllet.htruthdare.billings.interfaces.RecycleViewInterface;
-import com.pigllet.htruthdare.billings.utilies.Prefs;
+import com.darling.htruthdare.R;
+import com.darling.htruthdare.billings.adapters.BuyCoinsAdapter;
+import com.darling.htruthdare.billings.interfaces.RecycleViewInterface;
+import com.darling.htruthdare.billings.utilies.Prefs;
 
 import java.util.ArrayList;
 import java.util.List;

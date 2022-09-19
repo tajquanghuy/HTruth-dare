@@ -1,4 +1,4 @@
-package com.pigllet.htruthdare.truthdare;
+package com.darling.htruthdare.truthdare;
 
 import android.view.LayoutInflater;
 import android.view.View;
@@ -8,7 +8,7 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.pigllet.htruthdare.R;
+import com.darling.htruthdare.R;
 
 import java.util.ArrayList;
 

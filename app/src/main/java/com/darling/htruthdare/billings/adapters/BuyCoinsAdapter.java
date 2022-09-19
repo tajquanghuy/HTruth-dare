@@ -1,4 +1,4 @@
-package com.pigllet.htruthdare.billings.adapters;
+package com.darling.htruthdare.billings.adapters;
 
 import android.content.Context;
 import android.view.LayoutInflater;
@@ -10,8 +10,8 @@ import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.android.billingclient.api.ProductDetails;
-import com.pigllet.htruthdare.R;
-import com.pigllet.htruthdare.billings.interfaces.RecycleViewInterface;
+import com.darling.htruthdare.R;
+import com.darling.htruthdare.billings.interfaces.RecycleViewInterface;
 
 import java.util.List;
 import java.util.Objects;

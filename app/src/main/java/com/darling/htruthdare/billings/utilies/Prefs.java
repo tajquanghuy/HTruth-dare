@@ -1,9 +1,9 @@
-package com.pigllet.htruthdare.billings.utilies;
+package com.darling.htruthdare.billings.utilies;
 
 import android.content.Context;
 import android.content.SharedPreferences;
 
-import com.pigllet.htruthdare.R;
+import com.darling.htruthdare.R;
 
 public class Prefs {
 

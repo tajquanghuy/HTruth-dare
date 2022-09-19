@@ -1,4 +1,4 @@
-package com.pigllet.htruthdare
+package com.darling.htruthdare
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4

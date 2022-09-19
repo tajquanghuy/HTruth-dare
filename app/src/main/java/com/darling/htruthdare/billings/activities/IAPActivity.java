@@ -1,4 +1,4 @@
-package com.pigllet.htruthdare.billings.activities;
+package com.darling.htruthdare.billings.activities;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -7,8 +7,8 @@ import android.widget.TextView;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import com.pigllet.htruthdare.R;
-import com.pigllet.htruthdare.billings.utilies.Prefs;
+import com.darling.htruthdare.R;
+import com.darling.htruthdare.billings.utilies.Prefs;
 
 public class IAPActivity extends AppCompatActivity {
     Prefs prefs;

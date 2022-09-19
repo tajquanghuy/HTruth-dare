@@ -1,4 +1,4 @@
-package com.pigllet.htruthdare.truthdare;
+package com.darling.htruthdare.truthdare;
 
 public class Values {
 

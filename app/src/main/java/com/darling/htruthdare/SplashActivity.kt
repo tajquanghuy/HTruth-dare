@@ -1,4 +1,4 @@
-package com.pigllet.htruthdare
+package com.darling.htruthdare
 
 import android.content.Intent
 import android.os.Bundle
@@ -6,8 +6,8 @@ import android.os.Handler
 import android.util.Log
 import androidx.appcompat.app.AppCompatActivity
 import com.android.billingclient.api.*
-import com.pigllet.htruthdare.billings.utilies.Prefs
-import com.pigllet.htruthdare.truthdare.StartActivity
+import com.darling.htruthdare.billings.utilies.Prefs
+import com.darling.htruthdare.truthdare.StartActivity
 
 class SplashActivity : AppCompatActivity() {
 

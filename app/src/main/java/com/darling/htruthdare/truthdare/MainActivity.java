@@ -1,4 +1,4 @@
-package com.pigllet.htruthdare.truthdare;
+package com.darling.htruthdare.truthdare;
 
 import android.content.Intent;
 import android.media.MediaPlayer;
@@ -8,12 +8,10 @@ import android.view.animation.Animation;
 import android.view.animation.RotateAnimation;
 import android.widget.Button;
 import android.widget.ImageView;
-import android.widget.TextView;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import com.pigllet.htruthdare.R;
-import com.pigllet.htruthdare.billings.activities.IAPActivity;
+import com.darling.htruthdare.R;
 
 import java.util.Random;
 

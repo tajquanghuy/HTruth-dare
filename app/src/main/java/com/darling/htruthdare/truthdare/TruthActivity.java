@@ -1,4 +1,4 @@
-package com.pigllet.htruthdare.truthdare;
+package com.darling.htruthdare.truthdare;
 
 import android.app.Dialog;
 import android.content.Context;
@@ -21,7 +21,7 @@ import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.google.gson.Gson;
-import com.pigllet.htruthdare.R;
+import com.darling.htruthdare.R;
 
 import java.util.ArrayList;
 
